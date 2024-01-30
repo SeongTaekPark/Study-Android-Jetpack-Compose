@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">StudyJetpackCompose</string>
     <string name="title_activity_list">ListActivity</string>
+    <string name="title_activity_image_card">ImageCardActivity</string>
 </resources>
