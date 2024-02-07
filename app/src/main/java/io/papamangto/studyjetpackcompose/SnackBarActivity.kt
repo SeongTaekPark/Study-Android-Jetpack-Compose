@@ -29,7 +29,7 @@ class SnackBarActivity : ComponentActivity() {
             val scope = rememberCoroutineScope()
             val keyboardController = LocalSoftwareKeyboardController.current
             
-            Scaffold(
+            Scaffold(       // 머티리얼 디자인을 적용하기 위해 Scaffold 로 감싼다.
                 scaffoldState = scaffoldState
             ) {
                 Column(
